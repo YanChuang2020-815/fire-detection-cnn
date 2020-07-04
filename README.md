@@ -103,6 +103,9 @@ $ python firenet.py models/test.mp4
 $ python inceptionVxOnFire.py -m 1 models/test.mp4
 $ python superpixel-inceptionVxOnFire.py -m 1 models/test.mp4
 ```
+sh ./download-models.sh 若下载不下来，可移步百度云
+链接：https://pan.baidu.com/s/1s1CpzAx25LOfxLA3Gv6OEA 
+提取码：pykl
 
 where ```-m x``` specifies the use of either of the _InceptionV1OnFire, InceptionV3OnFire, InceptionV4OnFire_
 models for ```x``` in ```[1,3,4]```. By default it uses _InceptionV1OnFire_ if ```-m``` is not specified.
